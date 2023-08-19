@@ -115,3 +115,7 @@ export PATH="/home/mrspec7er/.local/share/fnm:$PATH"
 eval "`fnm env`"
 
 alias code="flatpak run com.visualstudio.code"
+
+export GOPATH=$HOME/go
+export GOROOT=$HOME/go/go1.21.0
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
